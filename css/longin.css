@@ -1,0 +1,76 @@
+.logo {
+    text-align: center;
+    border-radius: 100px;
+    height: 100px;
+    width: 100px;
+    margin-top: 50px;
+}
+
+body {
+    background: linear-gradient(236deg, #e11d83, #ffffff);
+    height: 100vh;
+    font-family: 'Raleway', sans-serif;
+    ;
+}
+
+a {
+    margin-top: 20px;
+    color: black;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.form1 {
+    height: 40px;
+    width: 325px;
+}
+
+.bo {
+    overflow: visible;
+    width: 75px;
+    height: 32px;
+    margin-bottom: 8px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    width: 450px;
+    height: 650px;
+    border: solid #000000 1px;
+    border-bottom-left-radius: 150px;
+    border-top-right-radius: 150px;
+    box-shadow: 0px 0px 10px 10px #00000096;
+    margin-top: 30%;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+.contaier {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (MIN-WIDTH:768PX) {
+    .contaier {
+        width: 750PX;
+    }
+}
+
+@media (MIN-WIDTH:992PX) {
+    .contaier {
+        width: 970PX;
+    }
+}
+
+@media (MIN-WIDTH:1200PX) {
+    .contaier {
+        width: 1170px;
+    }
+}
